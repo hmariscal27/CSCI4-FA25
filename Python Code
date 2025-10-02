@@ -1,0 +1,12 @@
+# python code
+
+def f(x):
+        return (x+10)
+
+print(f(4), f(5), f(6))
+
+def f(x):
+        return (x-2)
+
+print(f(f(4), f(5), f(6)) 
+
