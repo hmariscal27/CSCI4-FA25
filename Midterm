@@ -1,21 +1,8 @@
-numbers = range(5, 11)
->>> type(numbers)
-<class 'range'>
-
->>> len(numbers)
-6
-
->>> numbers[0]
-5
->>> numbers[-1]
-10
-
->>> for number in numbers:
-...     print(number)
-...
-5
-6
-7
-8
-9
-10
+list_1 = ["PythonGeeks", "Sequences", "Tutorial"] # [all string list]
+print(f'List 1: {list_1}')
+list_2 = list() # [empty list]
+print(f'List 2: {list_2}')
+list_3 = [2021, ['hello', 2020], 2.0] # [integer, list, float]
+print(f'List 3: {list_3}')
+list_4 = [{'language': 'Python'}, (1,2)] # [dictionary, tuple]
+print(f'List 4: {list_4}')
