@@ -1,12 +1,10 @@
-# lets build a queue
+# cartesian point
+# 2 numbers: representing left-right and down-up
+# lets assume x represents left-right
+# lets assume y represents down-up
 
-1 = []
+x = 5
+y = 6
+point = [x,y]
 
-
-def push_q(s, e)
-  s.append(e)
-  return s
-
-
-def pop_q(s):
-  return s.pop(0)
+point1 = {'x' : 5, 'y' : 6}
